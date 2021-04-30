@@ -1,0 +1,64 @@
+#bTn {
+    margin: auto;
+    display: none;
+    border-radius: 0.5em;
+    width: 20%;
+    height: 40px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+  .images {
+    width: 100%;
+    height: 200px;
+    background-image: url(waiter.jpg);
+    background-size: cover;
+    background-position-y: 200%;
+    background-attachment: fixed;
+    -webkit-box-shadow: inset 0px 0px 30px 2px rgba(0,0,0,0.66); 
+box-shadow: inset 0px 0px 30px 2px rgba(0,0,0,0.66);
+    padding: 0.5em;
+    margin: .5em;
+}
+  body{
+    font-family: 'Lobster', cursive;
+    color: white;
+    background-image: url(swirl.png);
+    background-blend-mode: exclusion;
+    transition: 2s;
+  }
+
+  .card.card-body.text-center.mt-5 {
+    -webkit-box-shadow: 0px 7px 23px -3px #000000; 
+    box-shadow: 0px 7px 23px -3px #000000;
+    background: linear-gradient(270deg, #0516a5, #2ccca3);
+    background-size: 400% 400%;
+
+    -webkit-animation: looper 30s ease infinite;
+    -moz-animation: looper 30s ease infinite;
+    animation: looper 30s ease infinite;
+}
+
+@-webkit-keyframes looper {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes looper {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes looper {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+@media (min-width: 768px){
+.col-md-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 80%;
+    max-width: 100%;
+}
+}
